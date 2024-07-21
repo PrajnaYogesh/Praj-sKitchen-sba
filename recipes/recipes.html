@@ -11,5 +11,76 @@
     <title>Recipes</title>
     <link rel="stylesheet" href="recipes.css" />
   </head>
-  <body></body>
+  <body>
+
+    <div class="bodyContainer">
+      <!-- logo  -->
+      <div class="logoHeading">
+        <img
+          class="logo-style"
+          src="../images/Praj’s Kitchen logo.png"
+          alt="Praj's Kitchen logo"
+        />
+      </div>
+
+
+      <!-- nav bar  -->
+      <div class="nav-bar">
+        <a href="../index.html"> <button class="button-style">Home</button> </a>
+        <a href="../about/about.html">
+          <button class="button-style">About</button>
+        </a>
+        <a href="../recipes/recipes.html">
+          <button class="button-style">Recipes</button>
+        </a>
+        <a href="../workwithme/workwithme.html">
+          <button class="button-style">Connect with me</button>
+        </a>
+        <div class="search-container">
+          <form action="">
+            <input
+              class="button-style"
+              type="text"
+              placeholder="Search.."
+              name="search"
+            />
+          </form>
+        </div>
+      </div>
+
+
+      <!-- drop-down  -->
+
+      <div class="dropdown-container">
+
+        <div class="recipe-desc">
+          <p id="para-style">We’ve organized these recipes every way we could think of so you don't have to! Dietary restrictions, weeknight dinners, meal prep recipes, some of our most tried-and-true… no matter how you browse, we’re sure you’ll find just what you were looking for.</p>
+                </div>
+
+      <div class="drop-down">
+
+        <div class="categ">
+        <select name="category" id="category">
+        <option value="category">Category</option>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+        <option value="juice">Juice</option>
+        <option value="cake">Cake</option>
+      </select>
+    </div>
+
+    <div class="date">
+      <label for="start">Date</label>
+      <input type="date" id="start" name="date"  min="2020-01-01" max="2024-07-21" />
+    </div>
+
+
+      </div>
+
+      </div>
+
+      <script src="https://kit.fontawesome.com/67ed182b45.js" crossorigin="anonymous"></script>
+
+  </body>
 </html>
