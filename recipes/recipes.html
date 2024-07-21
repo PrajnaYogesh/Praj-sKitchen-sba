@@ -10,9 +10,20 @@
     />
     <title>Recipes</title>
     <link rel="stylesheet" href="recipes.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-
     <div class="bodyContainer">
       <!-- logo  -->
       <div class="logoHeading">
@@ -22,7 +33,6 @@
           alt="Praj's Kitchen logo"
         />
       </div>
-
 
       <!-- nav bar  -->
       <div class="nav-bar">
@@ -48,39 +58,245 @@
         </div>
       </div>
 
-
       <!-- drop-down  -->
 
       <div class="dropdown-container">
-
         <div class="recipe-desc">
-          <p id="para-style">We’ve organized these recipes every way we could think of so you don't have to! Dietary restrictions, weeknight dinners, meal prep recipes, some of our most tried-and-true… no matter how you browse, we’re sure you’ll find just what you were looking for.</p>
-                </div>
+          <p id="para-style">
+            We’ve organized these recipes every way we could think of so you
+            don't have to! Dietary restrictions, weeknight dinners, meal prep
+            recipes, some of our most tried-and-true… no matter how you browse,
+            we’re sure you’ll find just what you were looking for.
+          </p>
+        </div>
 
-      <div class="drop-down">
+        <div class="drop-down">
+          <div class="categ">
+            <label for="category">Category:</label>
+            <select name="category" id="category">
+              <option value="breakfast">Breakfast</option>
+              <option value="lunch">Lunch</option>
+              <option value="dinner">Dinner</option>
+              <option value="juice">Juice</option>
+              <option value="cake">Cake</option>
+            </select>
+          </div>
 
-        <div class="categ">
-        <select name="category" id="category">
-        <option value="category">Category</option>
-        <option value="breakfast">Breakfast</option>
-        <option value="lunch">Lunch</option>
-        <option value="dinner">Dinner</option>
-        <option value="juice">Juice</option>
-        <option value="cake">Cake</option>
-      </select>
-    </div>
+          <div class="date">
+            <label for="start">Date:</label>
+            <input
+              type="date"
+              id="start"
+              name="date"
+              min="2020-01-01"
+              max="2024-07-21"
+            />
+          </div>
+        </div>
+      </div>
 
-    <div class="date">
-      <label for="start">Date</label>
-      <input type="date" id="start" name="date"  min="2020-01-01" max="2024-07-21" />
-    </div>
+      <!-- Recipes  -->
+
+      <div class="recipe">
+        <div class="first-group">
+          <div class="title">
+            <h3>EASY 30 MIN MEAL</h3>
+          </div>
+
+          <div class="first-row">
+            <div class="image-and-text">
+              <div class="img-meal">
+                <img
+                  src="https://hips.hearstapps.com/hmg-prod/images/30-minute-meals-shrimp-and-grits-659ecbfcd6481.jpeg?crop=1xw:1xh;center,top&resize=980:*"
+                  alt=""
+                />
+              </div>
+              <p class="desc-meal">Shrimp and Grits</p>
+            </div>
+
+            <div class="image-and-text">
+              <div class="img-meal">
+                <img
+                  src="https://hips.hearstapps.com/hmg-prod/images/30-minute-meals-cauliflower-fried-rice-659ed6c375183.jpeg?crop=1xw:1xh;center,top&resize=980:*"
+                  alt=""
+                />
+              </div>
+              <p class="desc-meal">Cauliflower Fried Rice</p>
+            </div>
+
+            <div class="image-and-text">
+              <div class="img-meal">
+                <img
+                  src="https://hips.hearstapps.com/hmg-prod/images/chicken-burgers-30-minute-meals-1619799997.jpeg?crop=0.9948979591836735xw:1xh;center,top&resize=980:*"
+                  alt=""
+                />
+              </div>
+              <p class="desc-meal">Chicken Burgers</p>
+            </div>
+
+            <div class="image-and-text">
+              <div class="img-meal">
+                <img
+                  src="https://hips.hearstapps.com/hmg-prod/images/30-minute-meals-cheesesteak-quesadillas-1585603443.jpg?crop=1.00xw:0.829xh;0,0.171xh&resize=980:*"
+                  alt=""
+                />
+              </div>
+              <p class="desc-meal">Cheesesteak Quesadillas</p>
+            </div>
+          </div>
+
+          
+
+          
+          <div class="see-more">
+            <button class="button-style" id="style-btn">SEE MORE . . .</button>
+          </div>
+        </div>
 
 
+        <div class="first-group">
+          <div class="title">
+            <h3>DESSERTS</h3>
+          </div>
+
+          <div class="first-row">
+            <div class="image-and-text">
+              <div class="img-meal">
+                <img
+                  src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/8/12/0/WU0711_Skillet-Cookie-Sundae.jpg.rend.hgtvcom.791.594.suffix/1415992493006.jpeg"
+                  alt=""
+                />
+              </div>
+              <p class="desc-meal">Skillet Cookie Sundae</p>
+            </div>
+
+            <div class="image-and-text">
+              <div class="img-meal">
+                <img
+                  src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/3/11/0/TU0703_Banana-Cream-Pudding_s4x3.jpg.rend.hgtvcom.791.594.suffix/1394587617072.jpeg"
+                  alt=""
+                />
+              </div>
+              <p class="desc-meal">Banana Cream Pudding
+              </p>
+            </div>
+
+            <div class="image-and-text">
+              <div class="img-meal">
+                <img
+                  src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/03/09/FNK_Strawberry-Pretzel-Salad_H2_s4x3.jpg.rend.hgtvcom.791.594.suffix/1646858200044.jpeg"
+                  alt=""
+                />
+              </div>
+              <p class="desc-meal">Strawberry Pretzel Salad</p>
+            </div>
+
+            <div class="image-and-text">
+              <div class="img-meal">
+                <img
+                  src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2024/01/30/FPLF308-mary-berg-banoffee-pie_s4x3.jpg.rend.hgtvcom.791.594.suffix/1706648498818.jpeg"
+                  alt=""
+                />
+              </div>
+              <p class="desc-meal">Banoffee Pie</p>
+            </div>
+          </div>
+
+          
+
+          
+          <div class="see-more">
+            <button class="button-style" id="style-btn">SEE MORE . . .</button>
+          </div>
+        </div>
+
+
+        <div class="first-group">
+          <div class="title">
+            <h3>APPETIZER</h3>
+          </div>
+
+          <div class="first-row">
+            <div class="image-and-text">
+              <div class="img-meal">
+                <img
+                  src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/10/24/FNK_CLAM_DIP_H_f.jpg.rend.hgtvcom.791.633.suffix/1666710963839.jpeg"
+                  alt=""
+                />
+              </div>
+              <p class="desc-meal">Clam Dip</p>
+            </div>
+
+            <div class="image-and-text">
+              <div class="img-meal">
+                <img
+                  src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/09/27/0/FNK_Crosshatched-Baked-Brie_H2_s4x3.jpg.rend.hgtvcom.791.594.suffix/1664309837856.jpeg"
+                  alt=""
+                />
+              </div>
+              <p class="desc-meal">Crosshatched Baked Brie
+              </p>
+            </div>
+
+            <div class="image-and-text">
+              <div class="img-meal">
+                <img
+                  src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/09/14/0/FNK_Cranberry-Brie-Knots_H2_s4x3.jpg.rend.hgtvcom.791.594.suffix/1600119969633.jpeg"
+                  alt=""
+                />
+              </div>
+              <p class="desc-meal">Cranberry-Brie Knots</p>
+            </div>
+
+            <div class="image-and-text">
+              <div class="img-meal">
+                <img
+                  src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2023/4/13/FNM_050123_Sausage-Taco-Cups_s4x3.jpg.rend.hgtvcom.791.594.suffix/1681396117979.jpeg"
+                  alt=""
+                />
+              </div>
+              <p class="desc-meal">Taco Cups </p>
+            </div>
+          </div>
+
+          
+
+          
+          <div class="see-more">
+            <button class="button-style" id="style-btn">SEE MORE . . .</button>
+          </div>
+        </div>
+
+        <div class="view-btn">
+        <H3 class="button-style view-style"> + VIEW ALL RECIPES </H3>
       </div>
 
       </div>
 
-      <script src="https://kit.fontawesome.com/67ed182b45.js" crossorigin="anonymous"></script>
+ <!-- social media - footer  -->
 
+ <div class="footer-container">
+  <div class="social-media">
+    <p>Follow us on:</p>
+    <div class="mini-icon">
+    <i class="fa-brands fa-square-instagram icon-space"></i>
+    <i class="fa-brands fa-facebook icon-space"></i>
+    <i class="fa-brands fa-tiktok icon-space"></i>
+    <i class="fa-brands fa-youtube icon-space"></i>
+  </div>
+  </div>
+
+  <div class="copyright">
+    <p>COPYRIGHT © 2024 · Praj's Kitchen · SITE SETUP BY PRAJNA YOGESH</p>
+  </div>
+</div>
+
+
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/67ed182b45.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

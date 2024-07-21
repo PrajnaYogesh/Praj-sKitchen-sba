@@ -121,6 +121,7 @@ input:focus {
   transform: scale(0.9);
 }
 
+/* footer */
 .footer-container {
   height: 12vh;
   display: flex;
