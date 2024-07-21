@@ -77,3 +77,115 @@
   input:focus {
     outline: none;
   }
+
+
+  /* contact form */
+.connect-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details{
+/* border: 1px solid blue; */
+margin: 20px;
+}
+  .details-styling{
+text-align: center;
+padding:2px;
+font-family: "Pacifico", cursive;
+font-weight: 400;
+font-style: normal;
+color: rgb(27, 106, 180);
+font-size: 1.4em;
+text-shadow: -1px 2px 1px rgb(202, 148, 148);
+
+  }
+
+
+  .form-container{
+
+ box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+width: 50vw;
+height: 50vh;
+  }
+
+  .form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .box-style{
+    margin: 10px 0px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(27, 106, 180);
+  }
+
+  .inp-style{
+    color:rgb(27, 106, 180) ;
+  }
+
+  #msg{
+    outline: none;
+    border: 1px solid rgb(27, 106, 180);
+    color:rgb(27, 106, 180) ;
+  }
+  #submit{
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    color: antiquewhite;
+  background-color: rgb(104, 144, 181);
+  font-size: 1em;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  }
+
+  #submit:hover{
+    color: red;
+  }
+
+  #submit:active{
+    color: antiquewhite;
+  }
+
+ /* footer */
+.footer-container {
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid green; */
+  align-items: center;
+  color: rgb(27, 106, 180);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media p {
+  padding-right: 10px;
+}
+
+.social-media .mini-icon .icon-space {
+  padding-right: 10px;
+  cursor: pointer;
+}
