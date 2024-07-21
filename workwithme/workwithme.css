@@ -10,7 +10,7 @@
   
   .bodyContainer {
     width: 100vw;
-    border: 2px solid rgb(231, 25, 59);
+ 
   }
 
   .button-style {
@@ -95,11 +95,10 @@ margin: 20px;
 text-align: center;
 padding:2px;
 font-family: "Pacifico", cursive;
-font-weight: 400;
+/* font-weight: 400; */
 font-style: normal;
 color: rgb(27, 106, 180);
 font-size: 1.4em;
-text-shadow: -1px 2px 1px rgb(202, 148, 148);
 
   }
 
@@ -132,9 +131,15 @@ height: 50vh;
     font-style: normal;
     color: rgb(27, 106, 180);
   }
+.label-style{
+    /* border: 1px solid red; */
+ 
+}
 
   .inp-style{
     color:rgb(27, 106, 180) ;
+    width: 200px;
+    border: 1px solid rgb(27, 106, 180);
   }
 
   #msg{
@@ -188,4 +193,8 @@ height: 50vh;
 .social-media .mini-icon .icon-space {
   padding-right: 10px;
   cursor: pointer;
+}
+
+.social-media .mini-icon .icon-space:hover{
+  color: red;
 }

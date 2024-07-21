@@ -77,3 +77,99 @@
   input:focus {
     outline: none;
   }
+
+
+  /* About me */
+
+  .about-container{
+    /* border: 1px solid black; */
+    width: 70vw;
+    height: 55vh;
+    margin: auto;
+display: flex;
+box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  }
+
+
+  .my-image{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+  }
+
+.women-img{
+  width: 100%;
+    height: 100%;
+}
+
+  .about-me-desc{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid green; */
+    padding: 10px;
+    color: rgb(27, 106, 180);
+  }
+
+
+.p-one{
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+}
+
+
+.name-one{
+  color: rgb(206, 87, 87);
+  font-family: "Niconne", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.2em;
+}
+
+.p-two{
+  font-family: "Fondamento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+/* footer */
+.footer-container {
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid green; */
+  align-items: center;
+  color: rgb(27, 106, 180);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media p {
+  padding-right: 10px;
+}
+
+.social-media .mini-icon .icon-space {
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.social-media .mini-icon .icon-space:hover{
+  color: red;
+}

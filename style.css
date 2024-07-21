@@ -148,3 +148,7 @@ input:focus {
   padding-right: 10px;
   cursor: pointer;
 }
+
+.social-media .mini-icon .icon-space:hover{
+  color: red;
+}
