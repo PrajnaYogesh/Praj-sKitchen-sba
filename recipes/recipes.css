@@ -258,3 +258,37 @@ text-align: center;
 .social-media .mini-icon .icon-space:hover{
   color: red;
 }
+
+
+/* calorie table */
+.calorie-table{
+  /* border: 1px solid red; */
+  /* height: 30vh; */
+  width: 90vh;
+  margin: auto;
+  text-align: center;
+  color: rgb(27, 106, 180);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+table, tr, th, td{
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid rgb(27, 106, 180);
+  padding: 3px;
+  
+}
+
+tr img{
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+
+.style-plus:hover{
+  color: red;
+}
