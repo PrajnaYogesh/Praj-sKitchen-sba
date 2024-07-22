@@ -84,7 +84,7 @@
   .about-container{
     /* border: 1px solid black; */
     width: 70vw;
-    height: 55vh;
+    /* height: 55vh; */
     margin: auto;
 display: flex;
 box-shadow:
@@ -95,6 +95,7 @@ box-shadow:
 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
 0 100px 80px rgba(0, 0, 0, 0.12)
 ;
+text-wrap: wrap;
   }
 
 
